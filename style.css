@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
-*{
+body{
+    background-color: black;
+    font-size: 15px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-    font-size: 15px;
-}
-
 main {
     width: 1200px;
-    height: 600px;
+    height: 80vh;
     background-color: hsl(0, 0%, 95%);
-    
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
 }
 
 /* Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
@@ -29,16 +28,18 @@ main {
 
 
 .container{
-    width: 1000px;
-    height: 500px;
+    width: 60%;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
+
+
 }
 
 p {
-    color: hsl(0, 0%, 100%, 0.75);
-    
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: x-small;
     font-family: 'Lexend Deca', sans-serif; 
     font-weight: 400;
 
@@ -49,22 +50,28 @@ h3 {
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive; 
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .sedan {
     background-color: hsl(31, 77%, 52%);
-    padding: 20px;
+    border-radius: 4px 0 0 4px;
+    /* padding: 20px; */
 }
 
 .suv{
     background-color: hsl(184, 100%, 22%);
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .luxury{
     background-color: hsl(179, 100%, 13%);
-    padding: 20px;
+    /* padding: 20px; */
+    border-radius: 0 4px 4px 0;
+}
+
+.vehicle{
+    padding: 30px   ;
 }
 
 button{
@@ -74,3 +81,41 @@ button{
     margin: 40px auto;
     background-color: hsl(0, 0%, 95%);
 }
+
+
+.vehicle.sedan button{
+    color:hsl(31, 77%, 52%);
+}
+
+.vehicle.sedan button:hover{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:hsl(0, 0%, 95%);
+    background: none;
+    border: hsl(0, 0%, 95%);
+}
+
+.vehicle.suv button{
+    color:hsl(184, 100%, 22%);
+}
+
+.vehicle.suv button:hover{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:hsl(0, 0%, 95%);
+    background: none;
+    border: hsl(0, 0%, 95%);
+}
+
+.vehicle.luxury button{
+    color:hsl(179, 100%, 13%);
+}
+
+.vehicle.luxury button:hover{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:hsl(0, 0%, 95%);
+    background: none;
+    border: hsl(0, 0%, 95%);
+}
+
