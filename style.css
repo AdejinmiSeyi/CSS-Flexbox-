@@ -33,8 +33,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 p {
@@ -92,7 +90,7 @@ button{
     border-radius: 30px;
     color:hsl(0, 0%, 95%);
     background: none;
-    border: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
 .vehicle.suv button{
@@ -104,7 +102,7 @@ button{
     border-radius: 30px;
     color:hsl(0, 0%, 95%);
     background: none;
-    border: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
 .vehicle.luxury button{
@@ -116,6 +114,6 @@ button{
     border-radius: 30px;
     color:hsl(0, 0%, 95%);
     background: none;
-    border: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
