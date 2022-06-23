@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-size: 15px;
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+    background-color: hsl(0, 0%, 95%);
+    
+
+}
+
+/* Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
+
+
+
+.container{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: hsl(0, 0%, 100%, 0.75);
+    
+    font-family: 'Lexend Deca', sans-serif; 
+    font-weight: 400;
+
+}
+
+h3 {
+    margin: 40px auto;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive; 
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    margin: 40px auto;
+    background-color: hsl(0, 0%, 95%);
+}
